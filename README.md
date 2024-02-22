@@ -36,26 +36,34 @@ yarn test:e2e
 
 _SETTING UP CYPRESS IN A NEW PROJECT_
 
-1. Open two terminal windows.
+1. Install cypress.
 
-2. In one window, launch the project:
+```bash
+yarn add cypress
+# or
+npm install cypress
+```
+
+2. Open two terminal windows.
+
+3. In one window, launch the project:
 
 ```bash
 yarn dev
 ```
 
-3. In the second window, launch the tests:
+4. In the second window, launch the tests:
 
 ```bash
-yarn test:cypress
+yarn test:e2e
 ```
 
-4. In the Cypress DevTools window, select E2E Testing.
+5. In the Cypress DevTools window, select E2E Testing.
 
-5. In the Cypress DevTools window, select a browser to use for testing.
+6. In the Cypress DevTools window, select a browser to use for testing.
 
-6. In the automated test window, select _New spec_ or create a new file in the `cypress/e2e` folder.
+7. In the automated test window, select _New spec_ or create a new file in the `cypress/e2e` folder.
 
-7. Write tests.
+8. Write tests.
 
-8. Run tests from automated test DevTools window.
+9. Run tests from automated test DevTools window.
